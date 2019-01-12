@@ -1,0 +1,194 @@
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>樱花镇服务器官网</title>
+  <link rel="stylesheet" href="css/mdui.min.css?v=0.4.1"/>
+  <link rel="icon" href="image/icon.png">
+  <style type="text/css">
+
+    @font-face {
+      font-family: 'iconfont';
+      src: url('iconfont.eot');
+      src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+      url('icons/iconfont.woff') format('woff'),
+      url('icons/iconfont.ttf') format('truetype'),
+      url('icons/iconfont.svg#iconfont') format('svg');
+    }
+
+    .iconfont {
+      font-family: "iconfont" !important;
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+
+    }
+  </style>
+</head>
+
+<body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-indigo-primary-indigo mdui-indigo-accent-indigo">
+
+<!-- 蓝色应用栏 -->
+<header class="mdui-appbar mdui-appbar-fixed">
+
+  <div class="mdui-toolbar mdui-color-indigo">
+
+    <!-- 应用栏按钮 -->
+    <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
+          mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+
+    <a class="mdui-typo-headline mdui-hidden-xs">SakuraTown</a>
+
+    <div class="mdui-toolbar-spacer"></div>
+
+    <a href="https://pan.baidu.com/s/1BCngzo0XDMlaG2-okEH9YQ" target="_blank">
+    <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '下载客户端'}"><i
+      class="mdui-icon iconfont">&#xe625;</i></span>
+    </a>
+
+    <a href="https://jq.qq.com/?_wv=1027&k=5gYtsn8" target="_blank">
+    <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '加入Q群'}"><i
+      style="font-size: 24px;" class="mdui-icon iconfont">&#xe50b;</i></span>
+    </a>
+
+  </div>
+</header>
+
+<!-- 侧边栏 -->
+<div class="mdui-drawer" id="main-drawer">
+  <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+
+    <div class="mdui-collapse-item mdui-collapse-item-open">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
+
+        <div class="mdui-list-item-content">樱花镇服务器</div>
+
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="index.html" class="mdui-list-item mdui-ripple mdui-list-item-active">樱花镇介绍</a>
+        <a href="加入樱花镇.html" class="mdui-list-item mdui-ripple ">加入樱花镇</a>
+        <a href="樱花镇规则.html" class="mdui-list-item mdui-ripple ">樱花镇规则</a>
+      </div>
+    </div>
+
+    <div class="mdui-collapse-item ">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">layers</i>
+        <div class="mdui-list-item-content">樱花镇百科</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="生存服.html" class="mdui-list-item mdui-ripple ">生存服</a>
+
+        <a href="赞助教程.html" class="mdui-list-item mdui-ripple ">赞助教程</a>
+      </div>
+    </div>
+
+<!--      <div class="mdui-collapse-item">       <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">         <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">widgets</i>         <div class="mdui-list-item-content">资源分享</div>         <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>       </div>       <div class="mdui-collapse-item-body mdui-list">         <a href="Mods.html" class="mdui-list-item mdui-ripple ">Mods</a>         <a href="客户端.html" class="mdui-list-item mdui-ripple ">客户端</a>         <a href="材质包.html" class="mdui-list-item mdui-ripple ">材质包</a>       </div>     </div>   -->
+
+  </div>
+</div>
+
+<!-- 蓝色标题栏 -->
+<div class="mdui-color-indigo" style='padding-bottom: 30px'></div>
+
+<div class="mdui-color-indigo" style='padding-bottom: 100px'>
+
+  <div class="mdui-typo mdui-valign" style="font-size:20px;">
+    <h1 class="mdui-center mdui-typo-title"><b>樱花镇服务器</b></h1>
+  </div>
+
+  <div class="mdui-typo mdui-valign" >
+    <p class="mdui-center mdui-typo-body-1-opacity">献给热爱 Minecraft 玩家的梦</p>
+  </div>
+
+  <div class="mdui-color-indigo" style='padding-bottom: 30px'></div>
+
+  <div class="mdui-valign">
+
+    <a href="加入樱花镇.html"
+       class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent mdui-center"
+       mdui-tooltip="{content: '点击查看加入教程'}">立即加入
+    </a>
+
+  </div>
+
+</div>
+
+<!-- 第二屏 -->
+<div class="mdui-color-grey-50" style='padding-bottom: 10px'>
+  <div class="mdui-container">
+
+    <div class="mdui-row">
+
+      <!-- 1 -->
+      <div class="mdui-col-xs-12 mdui-col-sm-4">
+        <div class="mdui-typo mdui-typo-body-2 mdui-valign">
+          <h2 class="mdui-center mdui-typo-title mdui-text-color-indigo-a700"><b>献给热爱 Minecrft 玩家的梦</b></h2>
+        </div>
+
+        <div class="mdui-typo mdui-typo-body-2" style=";text-align:center;">
+          <p>
+            樱花镇只为高素质且热爱 Minecraft 的玩家创建<br>
+            服务器拥有完善的管理规章制度<br>
+            遇到熊孩子只需要提交证据给管理员<br>
+            即可马上对熊孩子按照情节严重程度进行惩罚<br>
+            只为给您一个最温馨的樱花镇大家庭
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="mdui-col-xs-12 mdui-col-sm-4">
+        <div class="mdui-typo mdui-typo-body-2 mdui-valign">
+          <h2 class="mdui-center mdui-typo-title mdui-text-color-indigo-a700"><b>用热情与匠心打造的世界</b></h2>
+        </div>
+
+        <div class="mdui-typo mdui-typo-body-2" style=";text-align:center;">
+          <p>
+            三年来,我们一直致力于打造一个完美的服务器<br>
+            樱花镇使用了大量国外顶尖开发者所开发的流行插件<br>
+            只为您提供最好的游戏体验,并且拥有独立<br>
+            制作原创插件的能力,给服务器添加<br>
+            更多新奇有趣的玩法,满满的都是黑科技!
+        </div>
+
+
+      </div>
+
+      <!-- 3 -->
+      <div class="mdui-col-xs-12 mdui-col-sm-4">
+        <div class="mdui-typo mdui-typo-body-2 mdui-valign">
+          <h2 class="mdui-center mdui-typo-title mdui-text-color-indigo-a700"><b>只为给您最好的游戏体验</b></h2>
+        </div>
+
+        <div class="mdui-typo mdui-typo-body-2" style=";text-align:center;">
+          <p>
+            樱花镇采用顶级 Inter 至强双路 E5-2683V3 处理器<br>
+            最高可容纳千人同时在线,强大的处理器带来的是<br>
+            极致的性能,无论是高频红石还是高空流水<br>
+            统统允许玩家自由使用,并且服务器每日都会进行一次备份<br>
+            最大程度确保您的游戏数据安全!
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- 第三屏 -->
+<div class="mdui-container">
+
+</div>
+
+<script src="http://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
+<script src="js/mdui.min.js?v=0.4.1"></script>
